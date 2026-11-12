@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="132" viewBox="0 0 412 132" role="img" aria-labelledby="t d"><title id="t">Crypto</title><desc id="d">Open ledgers and markets that never close.</desc>
+<style>.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+@keyframes flip{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.08)}}
+@keyframes blk{0%,100%{fill-opacity:.12}12%{fill-opacity:.6}30%{fill-opacity:.12}}
+@keyframes run{0%{transform:translateX(0);opacity:0}8%{opacity:1}92%{opacity:1}100%{transform:translateX(62px);opacity:0}}
+@media (prefers-reduced-motion:no-preference){
+.coin{transform-box:fill-box;transform-origin:center;animation:flip 3s ease-in-out infinite}
+.b0{animation:blk 3.6s ease-in-out infinite}.b1{animation:blk 3.6s ease-in-out -2.4s infinite}.b2{animation:blk 3.6s ease-in-out -1.2s infinite}
+.run{animation:run 3.6s linear infinite}}</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6f8fc"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+<radialGradient id="ac" cx="0.08" cy="0.1" r="0.9"><stop offset="0" stop-color="#d97706" stop-opacity="0.1"/><stop offset="0.6" stop-color="#d97706" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect x="0.5" y="0.5" width="411" height="131" rx="16"/></clipPath>
+<linearGradient id="cg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#b45309"/></linearGradient>
+</defs>
+<g clip-path="url(#card)"><rect width="412" height="132" fill="url(#bg)"/><rect width="412" height="132" fill="url(#ac)"/></g>
+<rect x="0.5" y="0.5" width="411" height="131" rx="16" fill="none" stroke="#d3dbea"/>
+<rect x="12" y="12" width="108" height="108" rx="13" fill="#d97706" fill-opacity="0.06" stroke="#d97706" stroke-opacity="0.32"/>
+<g class="coin"><circle cx="66" cy="45" r="18" fill="url(#cg)"/><circle cx="66" cy="45" r="13" fill="none" stroke="#78350f" stroke-opacity="0.55" stroke-width="1.5"/><path d="M66 36l7 9-7 9-7-9z" fill="#78350f" fill-opacity="0.75"/></g>
+<path d="M46 89H55M77 89H86" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-opacity="0.7"/>
+<rect class="b0" x="24" y="78" width="22" height="22" rx="5.5" fill="#d97706" fill-opacity="0.12" stroke="#d97706" stroke-opacity="0.65" stroke-width="1.4"/><path d="M30.5 86h9M30.5 92h5.5" stroke="#d97706" stroke-opacity="0.75" stroke-width="1.5" stroke-linecap="round"/><rect class="b1" x="55" y="78" width="22" height="22" rx="5.5" fill="#d97706" fill-opacity="0.12" stroke="#d97706" stroke-opacity="0.65" stroke-width="1.4"/><path d="M61.5 86h9M61.5 92h5.5" stroke="#d97706" stroke-opacity="0.75" stroke-width="1.5" stroke-linecap="round"/><rect class="b2" x="86" y="78" width="22" height="22" rx="5.5" fill="#d97706" fill-opacity="0.12" stroke="#d97706" stroke-opacity="0.65" stroke-width="1.4"/><path d="M92.5 86h9M92.5 92h5.5" stroke="#d97706" stroke-opacity="0.75" stroke-width="1.5" stroke-linecap="round"/>
+<circle class="run" cx="35" cy="89" r="2.6" fill="#101828" opacity="0"/>
+<text class="s" x="136" y="40" font-size="17" font-weight="700" fill="#101828">Crypto</text>
+<text class="s" x="136" y="63" font-size="12.5" fill="#475467">Open ledgers and markets that never close.</text>
+<rect x="136" y="84" width="68.4" height="22" rx="11" fill="#d97706" fill-opacity="0.08" stroke="#d97706" stroke-opacity="0.4"/><text class="m" x="145" y="98.6" font-size="10.5" font-weight="600" fill="#d97706" textLength="50.4" lengthAdjust="spacing">on-chain</text><rect x="210.4" y="84" width="62.1" height="22" rx="11" fill="#d97706" fill-opacity="0.08" stroke="#d97706" stroke-opacity="0.4"/><text class="m" x="219.4" y="98.6" font-size="10.5" font-weight="600" fill="#d97706" textLength="44.1" lengthAdjust="spacing">wallets</text><rect x="278.5" y="84" width="87.3" height="22" rx="11" fill="#d97706" fill-opacity="0.08" stroke="#d97706" stroke-opacity="0.4"/><text class="m" x="287.5" y="98.6" font-size="10.5" font-weight="600" fill="#d97706" textLength="69.3" lengthAdjust="spacing">stablecoins</text>
+</svg>

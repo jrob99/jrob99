@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="132" viewBox="0 0 412 132" role="img" aria-labelledby="t d"><title id="t">Gaming</title><desc id="d">One more round. Then one more.</desc>
+<style>.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+@keyframes ba{0%,100%{opacity:1}50%{opacity:.3}}
+@keyframes hb{0%,59%{opacity:1}60%,79%{opacity:.2}80%,100%{opacity:1}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2.5px)}}
+@media (prefers-reduced-motion:no-preference){
+.ba{animation:ba 1.2s ease-in-out infinite}.bb{animation:ba 1.2s ease-in-out -.6s infinite}
+.h3{animation:hb 2.6s linear infinite}.pad{animation:bob 3.2s ease-in-out infinite}}</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111a2e"/><stop offset="1" stop-color="#0d1322"/></linearGradient>
+<radialGradient id="ac" cx="0.08" cy="0.1" r="0.9"><stop offset="0" stop-color="#f472b6" stop-opacity="0.16"/><stop offset="0.6" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect x="0.5" y="0.5" width="411" height="131" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#card)"><rect width="412" height="132" fill="url(#bg)"/><rect width="412" height="132" fill="url(#ac)"/></g>
+<rect x="0.5" y="0.5" width="411" height="131" rx="16" fill="none" stroke="#1f2b49"/>
+<rect x="12" y="12" width="108" height="108" rx="13" fill="#f472b6" fill-opacity="0.07" stroke="#f472b6" stroke-opacity="0.28"/>
+<path d="M43 22h2v2h-2zM45 22h2v2h-2zM49 22h2v2h-2zM51 22h2v2h-2zM41 24h2v2h-2zM43 24h2v2h-2zM45 24h2v2h-2zM47 24h2v2h-2zM49 24h2v2h-2zM51 24h2v2h-2zM53 24h2v2h-2zM41 26h2v2h-2zM43 26h2v2h-2zM45 26h2v2h-2zM47 26h2v2h-2zM49 26h2v2h-2zM51 26h2v2h-2zM53 26h2v2h-2zM43 28h2v2h-2zM45 28h2v2h-2zM47 28h2v2h-2zM49 28h2v2h-2zM51 28h2v2h-2zM45 30h2v2h-2zM47 30h2v2h-2zM49 30h2v2h-2zM47 32h2v2h-2z" fill="#f472b6"/><path d="M61 22h2v2h-2zM63 22h2v2h-2zM67 22h2v2h-2zM69 22h2v2h-2zM59 24h2v2h-2zM61 24h2v2h-2zM63 24h2v2h-2zM65 24h2v2h-2zM67 24h2v2h-2zM69 24h2v2h-2zM71 24h2v2h-2zM59 26h2v2h-2zM61 26h2v2h-2zM63 26h2v2h-2zM65 26h2v2h-2zM67 26h2v2h-2zM69 26h2v2h-2zM71 26h2v2h-2zM61 28h2v2h-2zM63 28h2v2h-2zM65 28h2v2h-2zM67 28h2v2h-2zM69 28h2v2h-2zM63 30h2v2h-2zM65 30h2v2h-2zM67 30h2v2h-2zM65 32h2v2h-2z" fill="#f472b6"/><path d="M79 22h2v2h-2zM81 22h2v2h-2zM85 22h2v2h-2zM87 22h2v2h-2zM77 24h2v2h-2zM79 24h2v2h-2zM81 24h2v2h-2zM83 24h2v2h-2zM85 24h2v2h-2zM87 24h2v2h-2zM89 24h2v2h-2zM77 26h2v2h-2zM79 26h2v2h-2zM81 26h2v2h-2zM83 26h2v2h-2zM85 26h2v2h-2zM87 26h2v2h-2zM89 26h2v2h-2zM79 28h2v2h-2zM81 28h2v2h-2zM83 28h2v2h-2zM85 28h2v2h-2zM87 28h2v2h-2zM81 30h2v2h-2zM83 30h2v2h-2zM85 30h2v2h-2zM83 32h2v2h-2z" fill="#f472b6" class="h3"/>
+<g class="pad">
+<path d="M44 48h44a22 22 0 0 1 22 22v14a11 11 0 0 1-21 5l-6-11H49l-6 11a11 11 0 0 1-21-5V70a22 22 0 0 1 22-22z" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-width="1.7" stroke-linejoin="round"/>
+<path d="M41 57h6v5h5v6h-5v5h-6v-5h-5v-6h5z" fill="#f472b6"/>
+<rect x="59" y="63" width="7" height="3.4" rx="1.7" fill="#6b7c9c"/><rect x="69" y="63" width="7" height="3.4" rx="1.7" fill="#6b7c9c"/>
+<circle class="ba" cx="86" cy="60" r="4.4" fill="#22d3ee"/><circle class="bb" cx="96" cy="68" r="4.4" fill="#fbbf24"/>
+</g>
+<text class="s" x="136" y="40" font-size="17" font-weight="700" fill="#e8eefb">Gaming</text>
+<text class="s" x="136" y="63" font-size="12.5" fill="#a3b3cf">One more round. Then one more.</text>
+<rect x="136" y="84" width="30.6" height="22" rx="11" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.34"/><text class="m" x="145" y="98.6" font-size="10.5" font-weight="600" fill="#f472b6" textLength="12.6" lengthAdjust="spacing">gg</text><rect x="172.6" y="84" width="36.9" height="22" rx="11" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.34"/><text class="m" x="181.6" y="98.6" font-size="10.5" font-weight="600" fill="#f472b6" textLength="18.9" lengthAdjust="spacing">1up</text><rect x="215.5" y="84" width="106.2" height="22" rx="11" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.34"/><text class="m" x="224.5" y="98.6" font-size="10.5" font-weight="600" fill="#f472b6" textLength="88.2" lengthAdjust="spacing">one more round</text>
+</svg>

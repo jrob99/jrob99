@@ -1,0 +1,81 @@
+name: Refresh profile assets
+
+# Rebuilds the live cards and the contribution snake, then publishes them to the
+# `output` branch. The README reads its dynamic images from that branch, so `main`
+# gets no automated commits.
+
+on:
+  schedule:
+    - cron: "17 * * * *" # hourly, off the top of the hour
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/refresh.yml"
+
+permissions:
+  contents: write # push the output branch
+  actions: write # keep the schedule enabled (see last step)
+
+concurrency:
+  group: refresh-profile-assets
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      # Start from the last published files. If a data source is down, the
+      # generator keeps the previous card instead of publishing a broken one.
+      - name: Restore the last published assets
+        run: |
+          mkdir -p dist
+          if git fetch --quiet --depth=1 origin output 2>/dev/null; then
+            git archive FETCH_HEAD | tar -x -C dist
+          fi
+
+      - name: Build the live cards
+        run: node scripts/build-pulse.mjs
+
+      - name: Build the contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        continue-on-error: true
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=#f472b6&color_dots=#161b2b,#134e5e,#0e7490,#22b8d6,#67e8f9
+            dist/snake-light.svg?color_snake=#db2777&color_dots=#e9edf5,#a5e8f5,#38c4de,#0891b2,#155e75
+
+      - name: Publish to the output branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd dist
+          git init --quiet --initial-branch=output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          git commit --quiet --message "Refresh profile assets"
+          remote="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          for attempt in 1 2 3; do
+            if git push --quiet --force "$remote" output; then
+              echo "published $(ls | wc -l | tr -d ' ') files"
+              exit 0
+            fi
+            sleep $((attempt * 5))
+          done
+          # A missed refresh is not worth a failure email. The next run retries.
+          echo "::warning::could not publish this run"
+
+      # GitHub disables scheduled workflows after 60 days without repository
+      # activity. Re-enabling the workflow resets that timer.
+      - name: Keep the schedule enabled
+        if: github.event_name == 'schedule'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow enable refresh.yml --repo "$GITHUB_REPOSITORY"

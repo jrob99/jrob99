@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="132" viewBox="0 0 412 132" role="img" aria-labelledby="t d"><title id="t">Coding</title><desc id="d">Automate the boring parts. Ship the rest.</desc>
+<style>.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+@keyframes c0{0%,4%{transform:scaleX(0)}12%,94%{transform:scaleX(1)}100%{transform:scaleX(0)}}@keyframes c1{0%,13%{transform:scaleX(0)}21%,94%{transform:scaleX(1)}100%{transform:scaleX(0)}}@keyframes c2{0%,22%{transform:scaleX(0)}30%,94%{transform:scaleX(1)}100%{transform:scaleX(0)}}@keyframes c3{0%,31%{transform:scaleX(0)}39%,94%{transform:scaleX(1)}100%{transform:scaleX(0)}}@keyframes c4{0%,40%{transform:scaleX(0)}48%,94%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+@keyframes cb{0%,49%{opacity:1}50%,100%{opacity:0}}
+@media (prefers-reduced-motion:no-preference){
+.c0{transform-box:fill-box;transform-origin:left center;animation:c0 6.4s steps(8,end) infinite}.c1{transform-box:fill-box;transform-origin:left center;animation:c1 6.4s steps(8,end) infinite}.c2{transform-box:fill-box;transform-origin:left center;animation:c2 6.4s steps(8,end) infinite}.c3{transform-box:fill-box;transform-origin:left center;animation:c3 6.4s steps(8,end) infinite}.c4{transform-box:fill-box;transform-origin:left center;animation:c4 6.4s steps(8,end) infinite}
+.cb{animation:cb 1s linear infinite}}</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6f8fc"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+<radialGradient id="ac" cx="0.08" cy="0.1" r="0.9"><stop offset="0" stop-color="#7c3aed" stop-opacity="0.1"/><stop offset="0.6" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect x="0.5" y="0.5" width="411" height="131" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#card)"><rect width="412" height="132" fill="url(#bg)"/><rect width="412" height="132" fill="url(#ac)"/></g>
+<rect x="0.5" y="0.5" width="411" height="131" rx="16" fill="none" stroke="#d3dbea"/>
+<rect x="12" y="12" width="108" height="108" rx="13" fill="#7c3aed" fill-opacity="0.06" stroke="#7c3aed" stroke-opacity="0.32"/>
+<rect x="22" y="24" width="88" height="84" rx="9" fill="#f3f6fb" stroke="#7c3aed" stroke-opacity="0.45"/>
+<circle cx="32" cy="34" r="2.5" fill="#e11d48"/><circle cx="40.5" cy="34" r="2.5" fill="#d97706"/><circle cx="49" cy="34" r="2.5" fill="#059669"/>
+<path d="M22.5 43H109.5" stroke="#7c3aed" stroke-opacity="0.3"/>
+<g class="c0"><rect x="30" y="50" width="22" height="5" rx="2.5" fill="#7c3aed"/><rect x="56" y="50" width="34" height="5" rx="2.5" fill="#475467"/></g><g class="c1"><rect x="38" y="60.5" width="18" height="5" rx="2.5" fill="#0891b2"/><rect x="60" y="60.5" width="26" height="5" rx="2.5" fill="#db2777"/></g><g class="c2"><rect x="38" y="71" width="42" height="5" rx="2.5" fill="#475467"/></g><g class="c3"><rect x="38" y="81.5" width="14" height="5" rx="2.5" fill="#d97706"/><rect x="56" y="81.5" width="24" height="5" rx="2.5" fill="#0891b2"/></g><g class="c4"><rect x="30" y="92" width="12" height="5" rx="2.5" fill="#7c3aed"/></g>
+<rect class="cb" x="46" y="90.5" width="5" height="8" rx="1" fill="#101828"/>
+<text class="s" x="136" y="40" font-size="17" font-weight="700" fill="#101828">Coding</text>
+<text class="s" x="136" y="63" font-size="12.5" fill="#475467">Automate the boring parts. Ship the rest.</text>
+<rect x="136" y="84" width="81" height="22" rx="11" fill="#7c3aed" fill-opacity="0.08" stroke="#7c3aed" stroke-opacity="0.4"/><text class="m" x="145" y="98.6" font-size="10.5" font-weight="600" fill="#7c3aed" textLength="63" lengthAdjust="spacing">typescript</text><rect x="223" y="84" width="55.8" height="22" rx="11" fill="#7c3aed" fill-opacity="0.08" stroke="#7c3aed" stroke-opacity="0.4"/><text class="m" x="232" y="98.6" font-size="10.5" font-weight="600" fill="#7c3aed" textLength="37.8" lengthAdjust="spacing">python</text><rect x="284.8" y="84" width="36.9" height="22" rx="11" fill="#7c3aed" fill-opacity="0.08" stroke="#7c3aed" stroke-opacity="0.4"/><text class="m" x="293.8" y="98.6" font-size="10.5" font-weight="600" fill="#7c3aed" textLength="18.9" lengthAdjust="spacing">sql</text>
+</svg>
