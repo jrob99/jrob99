@@ -144,8 +144,11 @@ async function esportsRows(limit) {
       .map((m) => {
         const p = parseMarket(m);
         if (!p || p.yesNo || !contested(p) || p.vol <= 0) return null;
-        if (/^(over|under)$/i.test(p.outcomes[0])) return null;
-        return { ...p, score: p.vol * (clean(m.question) === title ? 2 : 1) };
+        // Winner markets only: the match itself, or one game of it. No handicaps or totals.
+        const isMatch = p.question === title;
+        const isGame = /\bGame \d Winner\b/i.test(p.question) && !/handicap|spread|total/i.test(p.question);
+        if (!isMatch && !isGame) return null;
+        return { ...p, score: p.vol * (isMatch ? 2 : 1) };
       })
       .filter(Boolean)
       .sort((a, b) => b.score - a.score)[0];
