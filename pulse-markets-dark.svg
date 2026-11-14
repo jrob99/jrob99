@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="272" viewBox="0 0 412 272" role="img" aria-labelledby="t d"><title id="t">Hot prediction markets</title><desc id="d">Bitcoin dips to $60,000 by Dec 31: YES 54%. Ethereum dips to $1,800 Nov 9-15: YES 47%. Predict.fun FDV above $1B one day after launch: YES 44%. DO KONCA vs Yellow Submarine: DO KONCA 85%. Bilibili Gaming vs Gen.G: Gen.G 62%.</desc>
+<style>.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+@keyframes live{0%{transform:scale(1);opacity:.7}100%{transform:scale(3);opacity:0}}
+@media (prefers-reduced-motion:no-preference){.live{transform-box:fill-box;transform-origin:center;animation:live 2s ease-out infinite}}
+@keyframes bar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@media (prefers-reduced-motion:no-preference){.bar{transform-box:fill-box;transform-origin:left center;animation:bar .9s cubic-bezier(.2,.8,.2,1) both}}</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111a2e"/><stop offset="1" stop-color="#0d1322"/></linearGradient>
+<linearGradient id="g1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<clipPath id="card"><rect x="0.5" y="0.5" width="411" height="271" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#card)"><rect width="412" height="272" fill="url(#bg)"/><rect width="412" height="34" fill="#0a101d" fill-opacity="0.9"/></g>
+<path d="M0.5 34.5H411.5" stroke="#1f2b49"/>
+<rect x="0.5" y="0.5" width="411" height="271" rx="16" fill="none" stroke="#1f2b49"/>
+<circle cx="19" cy="17.5" r="4.3" fill="#fb7185"/><circle cx="33" cy="17.5" r="4.3" fill="#fbbf24"/><circle cx="47" cy="17.5" r="4.3" fill="#34d399"/>
+<text class="m" x="206" y="21.5" font-size="11" font-weight="600" text-anchor="middle" fill="#a3b3cf">polymarket · hot markets</text>
+<circle class="live" cx="392" cy="17.5" r="3" fill="#34d399"/><circle cx="392" cy="17.5" r="3" fill="#34d399"/>
+<text class="m" x="382" y="21" font-size="9.5" text-anchor="end" fill="#6b7c9c">hourly</text>
+<rect x="16" y="47" width="44" height="16" rx="5" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.4"/>
+<text class="m" x="38" y="58.2" font-size="8.6" font-weight="700" text-anchor="middle" fill="#fbbf24">BTC</text>
+<text class="s" x="68" y="59" font-size="12.2" font-weight="600" fill="#e8eefb">Bitcoin dips to $60,000 by Dec 31</text>
+<text class="m" x="396" y="59" font-size="13" font-weight="700" text-anchor="end" fill="#e8eefb">54%</text>
+<rect x="68" y="67" width="186" height="5" rx="2.5" fill="#19233b"/>
+<rect class="bar" style="animation-delay:0s" x="68" y="67" width="99.5" height="5" rx="2.5" fill="url(#g1)"/>
+<text class="m" x="396" y="73" font-size="9.6" text-anchor="end" fill="#6b7c9c">YES · $259K</text>
+<rect x="16" y="87" width="44" height="16" rx="5" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.4"/>
+<text class="m" x="38" y="98.2" font-size="8.6" font-weight="700" text-anchor="middle" fill="#fbbf24">ETH</text>
+<text class="s" x="68" y="99" font-size="12.2" font-weight="600" fill="#e8eefb">Ethereum dips to $1,800 Nov 9-15</text>
+<text class="m" x="396" y="99" font-size="13" font-weight="700" text-anchor="end" fill="#e8eefb">47%</text>
+<rect x="68" y="107" width="186" height="5" rx="2.5" fill="#19233b"/>
+<rect class="bar" style="animation-delay:0.09s" x="68" y="107" width="87.1" height="5" rx="2.5" fill="url(#g1)"/>
+<text class="m" x="396" y="113" font-size="9.6" text-anchor="end" fill="#6b7c9c">YES · $48K</text>
+<rect x="16" y="127" width="44" height="16" rx="5" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.4"/>
+<text class="m" x="38" y="138.2" font-size="8.6" font-weight="700" text-anchor="middle" fill="#fbbf24">CRYPTO</text>
+<text class="s" x="68" y="139" font-size="12.2" font-weight="600" fill="#e8eefb">Predict.fun FDV above $1B one day after la…</text>
+<text class="m" x="396" y="139" font-size="13" font-weight="700" text-anchor="end" fill="#e8eefb">44%</text>
+<rect x="68" y="147" width="186" height="5" rx="2.5" fill="#19233b"/>
+<rect class="bar" style="animation-delay:0.18s" x="68" y="147" width="82.2" height="5" rx="2.5" fill="url(#g1)"/>
+<text class="m" x="396" y="153" font-size="9.6" text-anchor="end" fill="#6b7c9c">YES · $24K</text>
+<rect x="16" y="167" width="44" height="16" rx="5" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.4"/>
+<text class="m" x="38" y="178.2" font-size="8.6" font-weight="700" text-anchor="middle" fill="#f472b6">DOTA</text>
+<text class="s" x="68" y="179" font-size="12.2" font-weight="600" fill="#e8eefb">DO KONCA vs Yellow Submarine</text>
+<text class="m" x="396" y="179" font-size="13" font-weight="700" text-anchor="end" fill="#e8eefb">85%</text>
+<rect x="68" y="187" width="186" height="5" rx="2.5" fill="#19233b"/>
+<rect class="bar" style="animation-delay:0.27s" x="68" y="187" width="158.1" height="5" rx="2.5" fill="url(#g2)"/>
+<text class="m" x="396" y="193" font-size="9.6" text-anchor="end" fill="#6b7c9c">DO KONCA · $337K</text>
+<rect x="16" y="207" width="44" height="16" rx="5" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.4"/>
+<text class="m" x="38" y="218.2" font-size="8.6" font-weight="700" text-anchor="middle" fill="#f472b6">LOL</text>
+<text class="s" x="68" y="219" font-size="12.2" font-weight="600" fill="#e8eefb">Bilibili Gaming vs Gen.G</text>
+<text class="m" x="396" y="219" font-size="13" font-weight="700" text-anchor="end" fill="#e8eefb">62%</text>
+<rect x="68" y="227" width="186" height="5" rx="2.5" fill="#19233b"/>
+<rect class="bar" style="animation-delay:0.36s" x="68" y="227" width="114.4" height="5" rx="2.5" fill="url(#g2)"/>
+<text class="m" x="396" y="233" font-size="9.6" text-anchor="end" fill="#6b7c9c">Gen.G · $1.0M</text>
+<text class="m" x="16" y="260" font-size="9.5" fill="#6b7c9c">updated 14 Nov 15:03 UTC</text>
+<text class="m" x="396" y="260" font-size="9.5" text-anchor="end" fill="#6b7c9c">crypto + esports · 24h volume</text>
+</svg>

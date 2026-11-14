@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="272" viewBox="0 0 412 272" role="img" aria-labelledby="t d"><title id="t">Crypto spot prices</title><desc id="d">BTC $65,963, down 4.16% in 24 hours. ETH $1,854.64, down 4.05% in 24 hours. SOL $74.18, down 7.21% in 24 hours. POL $0.0816, down 5.97% in 24 hours.</desc>
+<style>.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+@keyframes live{0%{transform:scale(1);opacity:.7}100%{transform:scale(3);opacity:0}}
+@media (prefers-reduced-motion:no-preference){.live{transform-box:fill-box;transform-origin:center;animation:live 2s ease-out infinite}}
+.spark{stroke-dasharray:1;stroke-dashoffset:0}@keyframes spark{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:no-preference){.spark{animation:spark 1.4s ease-out both}}</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111a2e"/><stop offset="1" stop-color="#0d1322"/></linearGradient>
+<linearGradient id="g1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<clipPath id="card"><rect x="0.5" y="0.5" width="411" height="271" rx="16"/></clipPath>
+<linearGradient id="up" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#34d399" stop-opacity="0.3"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></linearGradient><linearGradient id="dn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fb7185" stop-opacity="0.3"/><stop offset="1" stop-color="#fb7185" stop-opacity="0"/></linearGradient>
+</defs>
+<g clip-path="url(#card)"><rect width="412" height="272" fill="url(#bg)"/><rect width="412" height="34" fill="#0a101d" fill-opacity="0.9"/></g>
+<path d="M0.5 34.5H411.5" stroke="#1f2b49"/>
+<rect x="0.5" y="0.5" width="411" height="271" rx="16" fill="none" stroke="#1f2b49"/>
+<circle cx="19" cy="17.5" r="4.3" fill="#fb7185"/><circle cx="33" cy="17.5" r="4.3" fill="#fbbf24"/><circle cx="47" cy="17.5" r="4.3" fill="#34d399"/>
+<text class="m" x="206" y="21.5" font-size="11" font-weight="600" text-anchor="middle" fill="#a3b3cf">coinbase · spot prices</text>
+<circle class="live" cx="392" cy="17.5" r="3" fill="#34d399"/><circle cx="392" cy="17.5" r="3" fill="#34d399"/>
+<text class="m" x="382" y="21" font-size="9.5" text-anchor="end" fill="#6b7c9c">hourly</text>
+<rect x="16" y="49" width="32" height="32" rx="9" fill="#fbbf24" fill-opacity="0.13" stroke="#fbbf24" stroke-opacity="0.45"/>
+<text class="m" x="32" y="69.6" font-size="13" font-weight="700" text-anchor="middle" fill="#fbbf24">B</text>
+<text class="m" x="58" y="63" font-size="13.5" font-weight="700" fill="#e8eefb">BTC</text>
+<text class="s" x="58" y="78" font-size="10.5" fill="#6b7c9c">Bitcoin</text>
+<text class="m" x="264" y="63" font-size="14" font-weight="700" text-anchor="end" fill="#e8eefb">$65,963</text>
+<path d="M0 0L3.6 5.5L7.2 0Z" transform="translate(220 69.5)" fill="#fb7185"/>
+<text class="m" x="231" y="78" font-size="11" font-weight="600" fill="#fb7185" textLength="33" lengthAdjust="spacing">4.16%</text>
+<path d="M282 54.2L286.8 52.1L291.5 51.7L296.3 51L301 52.4L305.8 57L310.5 58.3L315.3 57.8L320 57.6L324.8 57.9L329.5 63.3L334.3 71.6L339 68.6L343.8 67.3L348.5 66.1L353.3 68L358 69.4L362.8 65.8L367.5 66.8L372.3 66.9L377 69.3L381.8 70.8L386.5 79L391.3 78.2L396 78.1L396 84L282 84Z" fill="url(#dn)"/>
+<path class="spark" d="M282 54.2L286.8 52.1L291.5 51.7L296.3 51L301 52.4L305.8 57L310.5 58.3L315.3 57.8L320 57.6L324.8 57.9L329.5 63.3L334.3 71.6L339 68.6L343.8 67.3L348.5 66.1L353.3 68L358 69.4L362.8 65.8L367.5 66.8L372.3 66.9L377 69.3L381.8 70.8L386.5 79L391.3 78.2L396 78.1" pathLength="1" fill="none" stroke="#fb7185" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="396" cy="78.1" r="2.6" fill="#fb7185"/>
+<rect x="16" y="99" width="32" height="32" rx="9" fill="#8b5cf6" fill-opacity="0.13" stroke="#8b5cf6" stroke-opacity="0.45"/>
+<text class="m" x="32" y="119.6" font-size="13" font-weight="700" text-anchor="middle" fill="#8b5cf6">E</text>
+<text class="m" x="58" y="113" font-size="13.5" font-weight="700" fill="#e8eefb">ETH</text>
+<text class="s" x="58" y="128" font-size="10.5" fill="#6b7c9c">Ethereum</text>
+<text class="m" x="264" y="113" font-size="14" font-weight="700" text-anchor="end" fill="#e8eefb">$1,854.64</text>
+<path d="M0 0L3.6 5.5L7.2 0Z" transform="translate(220 119.5)" fill="#fb7185"/>
+<text class="m" x="231" y="128" font-size="11" font-weight="600" fill="#fb7185" textLength="33" lengthAdjust="spacing">4.05%</text>
+<path d="M282 106.3L286.8 108.2L291.5 105.3L296.3 103.5L301 101L305.8 102.4L310.5 108.2L315.3 109.5L320 107.7L324.8 107.1L329.5 108.3L334.3 112.7L339 120.6L343.8 116.3L348.5 114.5L353.3 114.7L358 116.6L362.8 117.6L367.5 112.4L372.3 113.6L377 113.2L381.8 116.1L386.5 117.9L391.3 129L396 128.4L396 134L282 134Z" fill="url(#dn)"/>
+<path class="spark" d="M282 106.3L286.8 108.2L291.5 105.3L296.3 103.5L301 101L305.8 102.4L310.5 108.2L315.3 109.5L320 107.7L324.8 107.1L329.5 108.3L334.3 112.7L339 120.6L343.8 116.3L348.5 114.5L353.3 114.7L358 116.6L362.8 117.6L367.5 112.4L372.3 113.6L377 113.2L381.8 116.1L386.5 117.9L391.3 129L396 128.4" pathLength="1" fill="none" stroke="#fb7185" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="396" cy="128.4" r="2.6" fill="#fb7185"/>
+<rect x="16" y="149" width="32" height="32" rx="9" fill="#22d3ee" fill-opacity="0.13" stroke="#22d3ee" stroke-opacity="0.45"/>
+<text class="m" x="32" y="169.6" font-size="13" font-weight="700" text-anchor="middle" fill="#22d3ee">S</text>
+<text class="m" x="58" y="163" font-size="13.5" font-weight="700" fill="#e8eefb">SOL</text>
+<text class="s" x="58" y="178" font-size="10.5" fill="#6b7c9c">Solana</text>
+<text class="m" x="264" y="163" font-size="14" font-weight="700" text-anchor="end" fill="#e8eefb">$74.18</text>
+<path d="M0 0L3.6 5.5L7.2 0Z" transform="translate(220 169.5)" fill="#fb7185"/>
+<text class="m" x="231" y="178" font-size="11" font-weight="600" fill="#fb7185" textLength="33" lengthAdjust="spacing">7.21%</text>
+<path d="M282 154.2L286.8 152.4L291.5 151.7L296.3 151L301 152.4L305.8 158.7L310.5 162.9L315.3 160.6L320 162.9L324.8 165.9L329.5 169.4L334.3 174.6L339 172.4L343.8 170.4L348.5 171.7L353.3 173.8L358 173.8L362.8 170.7L367.5 171.7L372.3 170.6L377 172.1L381.8 172.6L386.5 179L391.3 178.6L396 178.3L396 184L282 184Z" fill="url(#dn)"/>
+<path class="spark" d="M282 154.2L286.8 152.4L291.5 151.7L296.3 151L301 152.4L305.8 158.7L310.5 162.9L315.3 160.6L320 162.9L324.8 165.9L329.5 169.4L334.3 174.6L339 172.4L343.8 170.4L348.5 171.7L353.3 173.8L358 173.8L362.8 170.7L367.5 171.7L372.3 170.6L377 172.1L381.8 172.6L386.5 179L391.3 178.6L396 178.3" pathLength="1" fill="none" stroke="#fb7185" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="396" cy="178.3" r="2.6" fill="#fb7185"/>
+<rect x="16" y="199" width="32" height="32" rx="9" fill="#f472b6" fill-opacity="0.13" stroke="#f472b6" stroke-opacity="0.45"/>
+<text class="m" x="32" y="219.6" font-size="13" font-weight="700" text-anchor="middle" fill="#f472b6">P</text>
+<text class="m" x="58" y="213" font-size="13.5" font-weight="700" fill="#e8eefb">POL</text>
+<text class="s" x="58" y="228" font-size="10.5" fill="#6b7c9c">Polygon</text>
+<text class="m" x="264" y="213" font-size="14" font-weight="700" text-anchor="end" fill="#e8eefb">$0.0816</text>
+<path d="M0 0L3.6 5.5L7.2 0Z" transform="translate(220 219.5)" fill="#fb7185"/>
+<text class="m" x="231" y="228" font-size="11" font-weight="600" fill="#fb7185" textLength="33" lengthAdjust="spacing">5.97%</text>
+<path d="M282 201L286.8 203.1L291.5 206.2L296.3 206.8L301 205.5L305.8 208.7L310.5 212L315.3 214.5L320 212.8L324.8 214.7L329.5 215.3L334.3 217.5L339 221.3L343.8 219.3L348.5 218.8L353.3 222.1L358 223L362.8 221.7L367.5 220L372.3 220.7L377 217.2L381.8 219.1L386.5 221.7L391.3 229L396 228.1L396 234L282 234Z" fill="url(#dn)"/>
+<path class="spark" d="M282 201L286.8 203.1L291.5 206.2L296.3 206.8L301 205.5L305.8 208.7L310.5 212L315.3 214.5L320 212.8L324.8 214.7L329.5 215.3L334.3 217.5L339 221.3L343.8 219.3L348.5 218.8L353.3 222.1L358 223L362.8 221.7L367.5 220L372.3 220.7L377 217.2L381.8 219.1L386.5 221.7L391.3 229L396 228.1" pathLength="1" fill="none" stroke="#fb7185" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="396" cy="228.1" r="2.6" fill="#fb7185"/>
+<text class="m" x="16" y="260" font-size="9.5" fill="#6b7c9c">updated 14 Nov 15:03 UTC</text>
+<text class="m" x="396" y="260" font-size="9.5" text-anchor="end" fill="#6b7c9c">24h change + trend</text>
+</svg>
